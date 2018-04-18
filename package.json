@@ -1,0 +1,23 @@
+{
+  "name": "zune-refactor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CS312 refactoring in-class example",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "plato": "es6-plato -d report -x .test.js$ *.js",
+    "coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Michael Linderman <mlinderman@middlebury.edu>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "es6-plato": "^1.0.17",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "jest": "^22.4.3",
+    "rewire": "^4.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "no-underscore-dangle": [2, { "allow": ["__get__"] }],
+    "complexity": ["error", 10]
+  }
+}
